@@ -7,22 +7,24 @@
     <title>Register</title>
 </head>
 <body>
-    <h1><center>WeBBest</center></h1>
+    <center><h1>Webboard Best</h1></center>
     <hr>
-    หมวดหมู่ : 
-    <select name="category">
-    <option value="all">ทั้งหมด</option>
-    <option value="general">เรื่องทั่วไป</option>
-    <option value="study">เรื่องเรียน</option>
-</select>
-<a href="login.html" style="float: right;">เข้าสู่ระบบ</a>
-<ul>
-    <li><a href="#">กระทู้1</a></li>
-    <li><a href="#">กระทู้2</a></li>
-    <li><a href="#">กระทู้3</a></li>
-    <li><a href="#">กระทู้4</a></li>
-    <li><a href="#">กระทู้5</a></li>
-</ul>
-
-    </body>
+<table style="border: 2px solid black ; width:40%" align="center">
+    <tr><td colspan="2" style="background-color: #6CD2FE;">กรอกข้อมูล</td></tr>
+    <tr><td>ชื่อบัญชี</td><td><input type="text" name="Login" size="40"></td></tr>
+    <tr><td>รหัสผ่าน</td><td><input type="text" name="Password" size="40"></td></tr>
+    <tr><td>ชื่อ-นามสกุล</td><td><input type="password" name="Password" size="40"></td></tr>
+    <tr><td>เพศ</td><td><input type="checkbox" name="men" value="0">ชาย<br>
+                        <input type="checkbox" name="women" value="0">หญิง<br>
+                        <input type="checkbox" name="other" value="0">อื่นๆ<br>
+    </td></tr>
+    <tr><td>อีเมล</td><td><input type="text" name="mail" size="40"></td></tr>
+    <tr><td colspan="2" align="center"><input type="submit" value="สมัครสมาชิก"></td></tr>
+</table>
+ิ<br>
+<div align="center">
+<a href="index.html">กลับสู่หน้าหลัก</a>
+</div>
+    
+</body>
 </html>
