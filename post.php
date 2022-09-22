@@ -7,7 +7,7 @@
     <title>verify</title>
 </head>
 <body>
-    <h1 align="center">WebboardBest</h1>
+    <h1 align="center">Webboard Best</h1>
     <hr>
      <center><?php echo "ต้องการดูกระทู้หมายเลข " .$_GET["id"];?>  <br>
      
